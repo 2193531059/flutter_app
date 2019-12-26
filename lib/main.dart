@@ -1,7 +1,42 @@
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
+import 'package:my_app/test1/MyScaffold.dart';
+import 'package:my_app/test2/MySecondApp.dart';
+import 'package:my_app/test4/MyTestFour.dart';
 
-void main() => runApp(new MyApp());
+import 'test3/MyThirdApp.dart';
+
+//void main() => runApp(new MyApp());
+//void main(){
+//  runApp(
+//      new Center(
+//        child: new Text(
+//          'Hello, world',
+//          textDirection: TextDirection.ltr,
+//        ),
+//      )
+//  );
+//}
+//Test two
+//void main() => runApp(new MySecondApp());
+//Test one
+//void main(){
+//  runApp(new MaterialApp(title: 'My app',home: new MyScaffold(),));
+//}
+//Test three
+void main(){
+  runApp(new MaterialApp(
+    title: 'Flutter Tutoeial',
+    home: new MyThirdApp(),
+  ));
+}
+//test four
+//void main(){
+//  runApp(new MaterialApp(
+//    title: 'Test Four',
+//    home: new MyTestFour(),
+//  ));
+//}
 
 class MyApp extends StatelessWidget {
   @override
