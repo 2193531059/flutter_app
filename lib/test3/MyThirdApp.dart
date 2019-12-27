@@ -1,6 +1,5 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:my_app/test4/MyTestFour.dart';
+import 'package:my_app/test6/CounterDisplay.dart';
 
 class MyThirdApp extends StatelessWidget {
   @override
@@ -18,10 +17,19 @@ class MyThirdApp extends StatelessWidget {
         ],
       ),
       body: new Center(
-        child: new MyTestFour(),//手势监听控件
+        child: new CounterStatefulWidget(),//手势监听控件
       ),
       floatingActionButton: new FloatingActionButton(
           tooltip: 'Add', child: new Icon(Icons.add), onPressed: null),
     );
   }
+}
+
+class MyStateFul extends StatefulWidget{
+  @override
+  State<StatefulWidget> createState() {
+    // TODO: implement createState
+    return null;
+  }
+
 }
